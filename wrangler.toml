@@ -1,0 +1,12 @@
+name = "cloudflare-drizzle"
+compatibility_date = "2023-12-13"
+#node_compat = true
+#nodejs_compat = true
+#compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "D1"
+database_name = "websqueeze"
+database_id = "20bd1d6e-def9-4ea0-8eb9-7088b193222d" #set the database id here
+#preview_database_id = "7d84-bd-9731-04052d5b615b"    # this is the local db
+migrations_dir ='migrationsD1'
